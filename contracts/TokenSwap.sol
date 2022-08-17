@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.6;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 
@@ -15,7 +15,7 @@ contract TokenSwap{
         address _owner1,
         address _token2,
         address _owner2
-     ) public {
+     )  {
         token1 = IERC20(_token1);
         owner1 = _owner1;
         token2 = IERC20(_token2);
